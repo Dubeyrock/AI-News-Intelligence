@@ -1,0 +1,14 @@
+# Ignore Virtual Environment folders (since the code is inside venv folder)
+Include/
+Lib/
+Scripts/
+share/
+pyvenv.cfg
+
+# Ignore Environment Variables (Important: Never push API keys)
+.env
+
+# Python specific files
+__pycache__/
+*.py[cod]
+*$py.class
